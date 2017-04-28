@@ -1,12 +1,3 @@
-    .cover h1, .cover {
-        height: 5em;
-        position: relative
-      }
-    .cover h1, .cover .h1 {
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
-      }
+.cover h1, .cover .h1{
+  padding-top: 200px;
+  }
