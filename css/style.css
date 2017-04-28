@@ -1,1 +1,6 @@
 /**Author: Matthew Watson**/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .cover h1, .cover .h1{
+    padding-top: 200px;
+    }
+}
