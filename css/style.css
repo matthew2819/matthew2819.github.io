@@ -1,13 +1,14 @@
-body {
- background-image: url(../images/IMG_0115.jpg);
- background-repeat: no-repeat;
- z-index: 0;
- position: absolute;
- width: 100%;
- background-size: cover;
- background-position: center;
-}
-
-h1 {
-  color: white;
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .cover h1, .cover {
+      height: 5em;
+      position: relative;
+    }
+  .cover h1, .cover .h1 {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
 }
