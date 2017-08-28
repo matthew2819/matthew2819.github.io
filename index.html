@@ -25,6 +25,12 @@
         visibility: hidden;
       }
     }
+    @-moz-document url-prefix() {
+      #cover {
+      padding-top: 200px;
+      padding-bottom: 100px;
+  }
+}
   </style>
 </head>
 
@@ -52,7 +58,7 @@
       </div>
     </div>
   </nav>
-  <div class="bg-primary text-center d-flex align-items-center w-100 h-100" style="background-image: url(&quot;images/IMG_0115b.jpg&quot;);">
+  <div id="cover" class="bg-primary text-center d-flex align-items-center w-100 h-100" style="background-image: url(&quot;images/IMG_0115b.jpg&quot;);">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12">
@@ -62,6 +68,11 @@
           <a href="#followhim" class="btn btn-lg btn-primary" id="coverbutton">Follow Him</a>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <img class="img-fluid mx-auto d-block" src="images/CambriaCampmeeting2017.jpg" alt="Campmeeting Poster">
     </div>
   </div>
   <div class="py-5 section text-center" id="followhim">
